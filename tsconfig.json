@@ -1,0 +1,30 @@
+{
+  "files": [
+    "src/server.ts"
+  ],
+  "include": [
+    "src/**/*.ts"
+  ],
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "target": "es6",
+    "outDir": "dist/platformLocator",
+    "rootDir": "src",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "typeRoots": [ "node_modules/@types" ],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["es2017"],
+    "paths": {
+      "*": [
+        "node_modules/@types/*",
+        "./server/types/*"
+      ],
+      "@Config/*": ["./src/util/*"]
+    }
+  }
+}
