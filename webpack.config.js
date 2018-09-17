@@ -1,34 +1,40 @@
-const fs = require('fs');
-const nodeModules = {};
 const path = require('path');
-
-fs.readdirSync('node_modules')
-    .filter(function (x) {
-        return ['.bin'].indexOf(x) === -1;
-    })
-    .forEach(function (mod) {
-        nodeModules[mod] = 'commonjs ' + mod;
-    });
+const nodeExternals = require('webpack-node-externals');
+const webpack = require('webpack');
 
 function srcPath(subDir) {
     return path.resolve(__dirname, subDir);
 }
 
 module.exports = {
-    entry: './src/server.ts',
+    context: path.resolve('./'),
+    entry: [
+        'webpack/hot/poll?1000',
+        './www',
+    ],
+    mode: 'development',
     devtool: 'inline-source-map',
+    target: 'node',
+    externals: [nodeExternals({
+        // this WILL include `jquery` and `webpack/hot/dev-server` in the bundle, as well as `lodash/*`
+        whitelist: ['webpack/hot/dev-server']
+    })],
     output: {
         path: __dirname + '/dist/platformLocator',
-        filename: 'server.js',
+        filename: 'server.js'
     },
     resolve: {
         alias: {
             '@Config': srcPath('src/util'),
         },
-        extensions: ['.webpack.js', '.web.js', '.ts', '.tsx', '.js'],
+        extensions: ['.webpack.js', '.web.js', '.ts', '.tsx', '.js', '.json'],
     },
     module: {
         rules: [
+            {
+                test: /node_modules[/\\]jsonstream/i,
+                loader: 'shebang-loader'
+            },
             {
                 test: /\.tsx?$/,
                 use: 'ts-loader',
@@ -36,6 +42,7 @@ module.exports = {
             }
         ]
     },
-    target: 'node',
-    externals: nodeModules
+    plugins: [
+        new webpack.HotModuleReplacementPlugin()
+    ]
 };

@@ -1,3 +1,3 @@
 export function testFunc() {
-    return 'Hello World';
+    return 'Hello Luke';
 }
