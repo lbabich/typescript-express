@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7f64eff-15cf-42df-8a69-436030e11aba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/config/message.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/configLoader.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/testFile.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,20 +35,20 @@
           <entry key="env" value="3" />
           <entry key="gitignore" value="2" />
           <entry key="js" value="59" />
-          <entry key="json" value="82" />
+          <entry key="json" value="86" />
           <entry key="map" value="1" />
-          <entry key="ts" value="57" />
+          <entry key="ts" value="63" />
           <entry key="www" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="3" />
-          <entry key="JSON" value="58" />
+          <entry key="JSON" value="62" />
           <entry key="JavaScript" value="62" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="SourceMap" value="1" />
-          <entry key="TypeScript" value="57" />
+          <entry key="TypeScript" value="63" />
           <entry key="tsconfig" value="24" />
         </counts>
       </usages-collector>
@@ -58,19 +58,19 @@
           <entry key="dev" value="104" />
           <entry key="env" value="51" />
           <entry key="js" value="750" />
-          <entry key="json" value="891" />
-          <entry key="ts" value="2180" />
+          <entry key="json" value="892" />
+          <entry key="ts" value="2235" />
           <entry key="www" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="51" />
-          <entry key="JSON" value="781" />
+          <entry key="JSON" value="782" />
           <entry key="JavaScript" value="869" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="RegExp" value="1" />
-          <entry key="TypeScript" value="2179" />
+          <entry key="TypeScript" value="2234" />
           <entry key="tsconfig" value="110" />
         </counts>
       </usages-collector>
@@ -86,17 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tsconfig.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="560">
+              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -104,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/server.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+            <state relative-caret-position="504">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -168,10 +159,10 @@
         <option value="$PROJECT_DIR$/src/package.json" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/server.js" />
-        <option value="$PROJECT_DIR$/src/util/configLoader.ts" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/nodemon.json" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/util/configLoader.ts" />
         <option value="$PROJECT_DIR$/src/server.ts" />
       </list>
     </option>
@@ -221,11 +212,6 @@
             <path>
               <item name="typescript-express" type="b2602c69:ProjectViewProjectNode" />
               <item name="typescript-express" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="typescript-express" type="b2602c69:ProjectViewProjectNode" />
-              <item name="typescript-express" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -248,17 +234,17 @@
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Demos\typescript-express\dist\platformLocator" />
-      <recent name="E:\Demos\typescript-express\src" />
-      <recent name="E:\Demos\typescript-express\bin" />
-      <recent name="E:\Demos\typescript-express" />
-      <recent name="E:\Demos\typescript-express\src\config" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Demos\typescript-express\src\config" />
       <recent name="E:\Demos\typescript-express\src" />
       <recent name="E:\Demos\typescript-express\src\util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Demos\typescript-express\dist\platformLocator" />
+      <recent name="E:\Demos\typescript-express\src\util" />
+      <recent name="E:\Demos\typescript-express\src" />
+      <recent name="E:\Demos\typescript-express\bin" />
+      <recent name="E:\Demos\typescript-express" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -273,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Attach to Node.js/Chrome.Debug">
+  <component name="RunManager" selected="npm.start:dist">
     <configuration name="build" type="js.build_tools.npm" factoryName="npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -284,7 +270,7 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="dev" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+    <configuration name="dev" type="js.build_tools.npm" factoryName="npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -348,7 +334,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39880000" />
+    <option name="totallyTimeSpent" value="40723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -360,8 +346,8 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329653" />
-      <window_info active="true" anchor="bottom" x="-1983" y="82" width="1741" height="1032" id="Run" order="2" side_tool="true" type="WINDOWED" visible="true" weight="0.329653" />
-      <window_info anchor="bottom" x="-2303" y="216" width="1795" height="1008" id="Debug" order="3" type="WINDOWED" weight="0.37381703" />
+      <window_info active="true" anchor="bottom" x="-1480" y="82" width="1238" height="1032" id="Run" order="2" side_tool="true" type="WINDOWED" visible="true" weight="0.329653" />
+      <window_info anchor="bottom" x="-2494" y="70" width="976" height="1044" id="Debug" order="3" type="WINDOWED" visible="true" weight="0.37381703" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -388,6 +374,12 @@
           <url>file://$PROJECT_DIR$/bin/dev</url>
           <line>13</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/server.ts</url>
+          <line>18</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -425,13 +417,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/platforLocator/config/message.json" />
     <entry file="file://$PROJECT_DIR$/dist/platforLocator/server.js" />
-    <entry file="file://$PROJECT_DIR$/src/config/message.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/message.json" />
     <entry file="file://$PROJECT_DIR$/node_modules/@types/node/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -463,16 +449,7 @@
     <entry file="file://$PROJECT_DIR$/webpack.config.js" />
     <entry file="file://$PROJECT_DIR$/src/main.js" />
     <entry file="file://$PROJECT_DIR$/src/package.json" />
-    <entry file="file://$PROJECT_DIR$/src/testFile.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/platformLocator/config/message.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testFile.ts" />
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -481,13 +458,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/platformLocator/server.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -496,23 +467,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/configLoader.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/nodemon/bin/nodemon.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -523,13 +478,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/platformLocator/node_modules/module-alias/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/platformLocator/node_modules/module-alias/register.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/source-map-support/source-map-support.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -537,20 +486,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/platformLocator/node_modules/source-map-support/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/platformLocator/src/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/platformLocator/node_modules/source-map-support/register.js" />
+    <entry file="file://$PROJECT_DIR$/dist/platformLocator/src/server.js" />
     <entry file="file://$PROJECT_DIR$/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
@@ -558,17 +495,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/testFile.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/configLoader.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/platformLocator/config/message.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="560">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="504">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
