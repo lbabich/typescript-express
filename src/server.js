@@ -40,7 +40,7 @@ var dotenv = require("dotenv");
 var bodyParser = require("body-parser");
 var path = require("path");
 dotenv.config();
-var app = express_1["default"]();
+var app = express_1();
 function dynamicImport() {
     return __awaiter(this, void 0, void 0, function () {
         var processPath, data, jsFile;
