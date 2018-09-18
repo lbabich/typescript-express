@@ -4,10 +4,10 @@
   "description": "",
   "main": "./src/server.js",
   "scripts": {
-    "start": "node %NODE_DEBUG_OPTION% -r ts-node/register src/server.ts",
+    "start": "node --inspect=5858 -r ts-node/register src/server.ts",
     "dev": "nodemon",
     "build": "tsc -p tsconfig.json",
-    "dist": "node ./dist/platformLocator/server.js"
+    "start:dist": "node dist/platformLocator/server.js"
   },
   "devDependencies": {
     "@types/body-parser": "^1.17.0",

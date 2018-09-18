@@ -1,14 +1,11 @@
-import 'module-alias/register';
-import 'source-map-support/register';
-import sourceMapSupport from 'source-map-support';
+import sourceMapSupport from 'source-map-support'
 import dotenv from 'dotenv';
 import bodyParser from 'body-parser';
 import process from 'process';
+import express from "express";
 
-const express = require('express');
-
-dotenv.config();
 sourceMapSupport.install();
+dotenv.config();
 
 const app = express();
 
@@ -17,7 +14,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.get('/', (req: any, res: any) => {
-    res.send('Hello there')
+    throw new Error('123');
+    res.send('Hello world')
 });
 
 app.listen(app.get('port'), () => {

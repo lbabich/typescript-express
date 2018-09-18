@@ -1,5 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Dev" type="NodeJSConfigurationType" factoryName="Node.js" node-parameters="--require ts-node/register" path-to-js-file="server.ts" working-dir="$PROJECT_DIR$/src">
-    <method v="2" />
-  </configuration>
-</component>
